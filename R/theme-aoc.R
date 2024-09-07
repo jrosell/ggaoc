@@ -1,9 +1,6 @@
 #' Set a Alexandria Ocasio Cortez inspired look to a ggplot2 plot
 #' @export
 theme_aoc <- \(){  
-  if(!requireNamespace("showtext")) {
-    stop("{showtext} package is requried.")
-  }
   sysfonts::font_add_google("Nunito", "nunito")
   ggplot2::theme_minimal(base_family = "nunito") +
     ggplot2::theme(

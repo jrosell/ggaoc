@@ -50,7 +50,7 @@ rebuild_package_and_check <- function() {
   )
   imports_packages <- c(
       "ggplot2",
-      "showtext"
+      "sysfonts"
   )
   imports_packages |> purrr::walk(
       \(x){usethis::use_package(x, type = "Imports"); x}

@@ -27,4 +27,4 @@ Suggests:
     usethis
 Imports: 
     ggplot2,
-    showtext
+    sysfonts
