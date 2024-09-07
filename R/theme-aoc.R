@@ -48,3 +48,4 @@ labeller_aoc <- function(...) {
 #' @rdname scale_color_aoc
 #' @export
 scale_colour_aoc <- scale_color_aoc
+

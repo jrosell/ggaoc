@@ -14,3 +14,4 @@ test_that("theme_aoc works", {
       y = "Age by Country"
     )
 })
+
