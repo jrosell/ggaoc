@@ -1,17 +1,17 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ggaoc: Alexandria Ocasio Cortez inspired ggplots
+# ggaoc: Alexandria Ocasio-Cortez inspired ggplots
 
 The ggaoc package provides a theme, palette, and other useful functions
-to customise ggplots and give them a Alexandria Ocasio Cortez inspired
+to customise ggplots and give them a Alexandria Ocasio-Cortez inspired
 look.
 
 ## Why
 
 All begins with this tweet:
 
-![Plot by Alexandria Ocasio Cortez](man/figures/aoc.jpg)
+![Plot by Alexandria Ocasio-Cortez](man/figures/aoc.jpg)
 
 ## How
 
@@ -40,9 +40,7 @@ ggplot(americas) +
       x = "Year",
       y = "Age by Country"
     )
-#> `geom_smooth()` using method
-#> = 'loess' and formula = 'y ~
-#> x'
+#> `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
@@ -70,9 +68,7 @@ ggplot(americas) +
       x = "Year",
       y = "Age by Country"
     )
-#> `geom_smooth()` using method
-#> = 'loess' and formula = 'y ~
-#> x'
+#> `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
 ```
 
 <img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />

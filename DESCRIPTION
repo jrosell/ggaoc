@@ -1,5 +1,5 @@
 Package: ggaoc
-Title: Alexandria Ocasio Cortez inspired ggplots
+Title: Alexandria Ocasio-Cortez inspired ggplots
 Version: 0.0.0.9000
 Authors@R: c(
     person("Jordi", "Rosell", , "jroselln@gmail.com", role = c("aut", "cre"),
@@ -7,8 +7,8 @@ Authors@R: c(
     person("Frankie T.", "Hull", , "frankiethull@gmail.com", role = "aut")
   )
 Description: The ggaoc package provides a theme, palette, and other useful
-    functions to customise ggplots and give them a Alexandria Ocasio
-    Cortez inspired look.
+    functions to customise ggplots and give them a Alexandria
+    Ocasio-Cortez inspired look.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Language: en
@@ -16,7 +16,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Depends: 
     R (>= 4.4)
-URL: https://github.com/jrosell/ggaoc, https://jrosell.github.io/ggaoc/
+URL: https://github.com/jrosell/ggaoc
 Suggests: 
     devtools,
     gapminder,

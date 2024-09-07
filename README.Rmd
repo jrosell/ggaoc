@@ -13,16 +13,16 @@ knitr::opts_chunk$set(
 )
 ```
 
-# ggaoc
+# ggaoc: Alexandria Ocasio-Cortez inspired ggplots
 
 The ggaoc package provides a theme, palette, and other useful functions to
-customise ggplots and give them a Alexandria Ocasio Cortez inspired look.
+customise ggplots and give them a Alexandria Ocasio-Cortez inspired look.
 
 ## Why
 
 All begins with this tweet:
 
-![Plot by Alexandria Ocasio Cortez](man/figures/aoc.jpg)
+![Plot by Alexandria Ocasio-Cortez](man/figures/aoc.jpg)
 
 
 ## How

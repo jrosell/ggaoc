@@ -9,8 +9,8 @@
 rebuild_package_and_check <- function() {
   previous_version <- "0.0.0.9000"
   usethis::use_description(list(
-      "Title" = "Alexandria Ocasio Cortez inspired ggplots",
-      "Description" = "The ggaoc package provides a theme, palette, and other useful functions to customise ggplots and give them a Alexandria Ocasio Cortez inspired look.",
+      "Title" = "Alexandria Ocasio-Cortez inspired ggplots",
+      "Description" = "The ggaoc package provides a theme, palette, and other useful functions to customise ggplots and give them a Alexandria Ocasio-Cortez inspired look.",
       "Version" = previous_version,
       "Authors@R" = c(
         utils::person(
@@ -50,7 +50,7 @@ rebuild_package_and_check <- function() {
   )
   imports_packages <- c(
       "ggplot2",
-      "showtext"   
+      "showtext"
   )
   imports_packages |> purrr::walk(
       \(x){usethis::use_package(x, type = "Imports"); x}
