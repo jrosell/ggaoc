@@ -16,7 +16,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Depends: 
     R (>= 4.4)
-URL: https://github.com/jrosell/ggaoc
+URL: https://github.com/jrosell/ggaoc, https://jrosell.github.io/ggaoc/
 Suggests: 
     devtools,
     gapminder,

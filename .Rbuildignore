@@ -1,2 +1,6 @@
 ^LICENSE\.md$
 .here
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$
