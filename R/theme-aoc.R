@@ -1,6 +1,6 @@
 #' Set a Alexandria Ocasio Cortez inspired look to a ggplot2 plot
 #' @export
-theme_aoc <- \(){  
+theme_aoc <- \() {
   sysfonts::font_add_google("Nunito", "nunito")
   ggplot2::theme_minimal(base_family = "nunito") +
     ggplot2::theme(
@@ -10,7 +10,10 @@ theme_aoc <- \(){
       axis.line = ggplot2::element_line(color = "grey20"),
       panel.grid.minor = ggplot2::element_blank(),
       panel.grid.major.x = ggplot2::element_blank(),
-      panel.grid.major.y = ggplot2::element_line(color = "grey60", linetype = "dashed"),
+      panel.grid.major.y = ggplot2::element_line(
+        color = "grey60",
+        linetype = "dashed"
+      ),
       plot.title = ggplot2::element_text(face = "bold", hjust = 0.5)
     )
 }
@@ -20,10 +23,10 @@ theme_aoc <- \(){
 #' @param ... additional parameters to the labs function
 #' @export
 labs_aoc <- function(title, ...) {
-    ggplot2::labs(
-      title = toupper(title),
-      ...
-    )
+  ggplot2::labs(
+    title = toupper(title),
+    ...
+  )
 }
 
 #' Set a Alexandria Ocasio Cortez inspired look to a ggplot2 color scales
@@ -43,4 +46,3 @@ labeller_aoc <- function(...) {
 #' @rdname scale_color_aoc
 #' @export
 scale_colour_aoc <- scale_color_aoc
-
